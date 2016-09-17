@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.sortby > a {
+    width: 33%;
+}
+
+.modes > a {
+    width: 25%;
+}
+
+.button {
+    display: block;
+    background-color: #eee;
+    text-align: center;
+    vertical-align: middle;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    background-color: #b3ffb3;
+}
+
+
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+
+    border-bottom: 1px solid #ccc;
+}
+td:not(:first-child) {
+    border-left: 1px solid #EEE;
+}
+
+tr.pass,td.pass {
+    background-color: #80ff80;
+}
+
+tr.nopass,td.nopass {
+    background-color: #ff8080;
+}
+
+tr.litepass,td.litepass {
+    background-color: #b3ffb3;
+}
+
+tr.litenopass,td.litenopass {
+    background-color: #ffb3b3;
+}
+
+#disclaimer {
+    font-style: italic;
+    text-align: center;
+}
